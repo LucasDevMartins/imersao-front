@@ -48,27 +48,45 @@ body{
 .sidebar .sidebar__biblioteca {
     background-color: #121212;
     border-radius: 8px;
-    margin-top: 10px;
-    padding: 10px;
-}
-
-.sidebar .sidebar__biblioteca ul li {
-    padding: 10px 0;
-}
-
-.sidebar .sidebar__biblioteca ul li a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     color: #b3b3b3;
-    text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+    margin-top: 10px;
+    padding: 4px 8px;
+}
+
+.sidebar__biblioteca .biblioteca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__biblioteca .botao_biblioteca {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
     font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
 }
 
-.fa.fa-book {
-    padding-right: 20px;
+.sidebar__biblioteca .botao_biblioteca .fa {
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
 }
 
-.fa.fa-plus {
-    padding-left: 80px;
+.sidebar__biblioteca .biblioteca .fa.fa-plus {
+    margin: 24px 10px;
 }
 
